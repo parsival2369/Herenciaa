@@ -1,0 +1,22 @@
+using System;
+
+class Operaciones
+{
+    
+    public double CalcularAreaCirculo(double radio)
+    {
+        return Math.PI * Math.Pow(radio, 2);
+    }
+
+    
+    public double CalcularLongitudCircunferencia(double radio)
+    {
+        return 2 * Math.PI * radio;
+    }
+
+  
+    public double CalcularVolumenEsfera(double radio)
+    {
+        return (4.0 / 3.0) * Math.PI * Math.Pow(radio, 3);
+    }
+}
