@@ -1,0 +1,18 @@
+using System;
+
+class Geometria : Operaciones
+{
+    private double radio;
+
+    public Geometria(double radio)
+    {
+        this.radio = radio;
+    }
+
+    public void Imprimir()
+    {
+        Console.WriteLine($"Área del círculo con radio {radio}: {CalcularAreaCirculo(radio)}");
+        Console.WriteLine($"Longitud de la circunferencia con radio {radio}: {CalcularLongitudCircunferencia(radio)}");
+        Console.WriteLine($"Volumen de la esfera con radio {radio}: {CalcularVolumenEsfera(radio)}");
+    }
+}
